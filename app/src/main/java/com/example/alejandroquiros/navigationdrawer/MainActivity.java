@@ -98,7 +98,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-    public void ShowText(){
-        Toast.makeText(this, "El boton ha sido presionado :D", Toast.LENGTH_SHORT).show();
+
+
+    public void ShowText(View view) {
+        Toast.makeText(this, "El primer boton ha sido presionado!", Toast.LENGTH_SHORT).show();
+    }
+    public void ShowText2(View view) {
+        Toast.makeText(this, "El segundo boton ha sido presionado :D", Toast.LENGTH_SHORT).show();
     }
 }
